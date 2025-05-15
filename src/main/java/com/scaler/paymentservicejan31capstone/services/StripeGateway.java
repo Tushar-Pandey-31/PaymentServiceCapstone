@@ -15,7 +15,7 @@ import org.springframework.stereotype.Service;
 public class StripeGateway implements PaymentGateway
 {
 
-    private String apiKey = "sk_test_51ROhnMQ8tiGPWFM79uNU8SAg9QwZ6ojYtsIOb17Qcishld7lGBWYBdWE8ShrEinVa85P4CYQ03kdIDTEG1TfWeBt00J65l2zfx";
+    private String apiKey = "secret";
     @Override
 
     public String generatePaymentLink()
